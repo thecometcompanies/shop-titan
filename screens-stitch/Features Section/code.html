@@ -1,0 +1,337 @@
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Features Breakdown | Tech For Decorators</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#6366f1",
+                        "background-light": "#ffffff",
+                        "background-dark": "#0a0a0a",
+                        charcoal: "#0A0A0A",
+                    },
+                    fontFamily: {
+                        display: ["Inter", "sans-serif"],
+                        sans: ["Inter", "sans-serif"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "8px",
+                    },
+                },
+            },
+        };
+    </script>
+<style type="text/tailwindcss">
+        body { font-family: 'Inter', sans-serif; }
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.72);
+            backdrop-filter: saturate(180%) blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.03);
+        }
+        .dark .glass-nav {
+            background: rgba(10, 10, 10, 0.72);
+            backdrop-filter: saturate(180%) blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .feature-card {
+            background: white;
+            border: 1px solid rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .dark .feature-card {
+            background: #111;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+        .feature-card:hover {
+            box-shadow: 0 20px 40px rgba(0,0,0,0.04);
+        }
+        .ui-snippet {
+            background: #F9FAFB;
+            border-radius: 12px;
+            border: 1px solid #E5E7EB;
+        }
+        .dark .ui-snippet {
+            background: #0A0A0A;
+            border-color: #1F2937;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-charcoal dark:text-gray-100 antialiased selection:bg-primary/20">
+<header class="fixed top-6 left-0 right-0 z-50 px-6">
+<nav class="glass-nav max-w-5xl mx-auto h-14 md:h-16 rounded-full flex items-center justify-between px-6">
+<div class="flex-shrink-0">
+<a class="text-base md:text-lg font-bold tracking-tight text-charcoal dark:text-white" href="/">
+                Tech For <span class="text-primary">Decorators</span>
+</a>
+</div>
+<div class="hidden md:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
+<a class="text-xs font-semibold text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors uppercase tracking-wider" href="#">Product</a>
+<a class="text-xs font-semibold text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors uppercase tracking-wider" href="#">Platform</a>
+<a class="text-xs font-semibold text-primary dark:text-white transition-colors uppercase tracking-wider" href="#">Features</a>
+<a class="text-xs font-semibold text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors uppercase tracking-wider" href="#">Blog</a>
+</div>
+<div class="flex items-center gap-3">
+<button class="bg-primary text-white px-4 py-2 text-xs font-bold rounded-full hover:brightness-110 transition-all flex items-center gap-2 shadow-sm uppercase tracking-wide">
+                Request Demo <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</nav>
+</header>
+<main class="pt-40 pb-32">
+<div class="max-w-7xl mx-auto px-6">
+<div class="mb-24 max-w-3xl">
+<span class="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold tracking-wider uppercase mb-6">Product Capabilities</span>
+<h1 class="text-5xl md:text-7xl font-bold leading-[1.1] mb-8 tracking-tight text-charcoal dark:text-white">
+                Engineered for <br/><span class="text-gray-400 dark:text-gray-600">Operational Excellence.</span>
+</h1>
+<p class="text-xl text-gray-500 dark:text-gray-400 leading-relaxed">
+                A modular architectural approach to apparel decoration. We didn't just build features; we solved the fundamental frictions of high-volume production.
+            </p>
+</div>
+<div class="space-y-12">
+<div class="feature-card rounded-3xl overflow-hidden grid lg:grid-cols-2">
+<div class="p-12 lg:p-20 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-gray-100 dark:border-gray-800">
+<div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-8">
+<span class="material-symbols-outlined">analytics</span>
+</div>
+<h2 class="text-3xl font-bold mb-6 dark:text-white">Job Tracking</h2>
+<div class="space-y-8">
+<div>
+<h4 class="text-xs font-bold uppercase tracking-widest text-primary mb-2">The Problem Eliminated</h4>
+<p class="text-gray-600 dark:text-gray-400">"Where is order #492?" phone calls and physical job jackets getting lost between the office and the press.</p>
+</div>
+<div>
+<h4 class="text-xs font-bold uppercase tracking-widest text-primary mb-2">What Changes After</h4>
+<p class="text-gray-600 dark:text-gray-400">Real-time digital status updates at every stage. Every garment's journey is logged, visible, and searchable by anyone on the team.</p>
+</div>
+<div class="pt-4 border-t border-gray-100 dark:border-gray-800">
+<p class="text-sm font-medium text-gray-500"><span class="text-charcoal dark:text-white">Best for:</span> Production Managers &amp; Customer Service teams.</p>
+</div>
+</div>
+</div>
+<div class="bg-gray-50 dark:bg-black p-8 lg:p-12 flex items-center justify-center">
+<div class="ui-snippet w-full shadow-2xl overflow-hidden">
+<div class="h-10 bg-white dark:bg-gray-900 border-b border-gray-100 dark:border-gray-800 px-4 flex items-center gap-2">
+<div class="flex gap-1.5">
+<div class="w-2.5 h-2.5 rounded-full bg-red-400/20"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-yellow-400/20"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-green-400/20"></div>
+</div>
+<span class="text-[10px] text-gray-400 font-mono ml-2 uppercase tracking-widest">FileMaker Pro - Production_Main</span>
+</div>
+<div class="p-6 bg-white dark:bg-gray-950">
+<div class="flex justify-between items-center mb-6">
+<div class="flex items-center gap-4">
+<div class="px-3 py-1 bg-green-500/10 text-green-600 text-[10px] font-bold rounded">IN PRODUCTION</div>
+<h3 class="font-bold text-sm">Job #9928 - Custom Tees</h3>
+</div>
+<span class="text-[10px] text-gray-400">ETA: 4:00 PM</span>
+</div>
+<div class="space-y-3">
+<div class="flex items-center justify-between p-3 rounded bg-gray-50 dark:bg-gray-900 text-xs border border-gray-100 dark:border-gray-800">
+<span class="text-gray-500">Separations</span>
+<span class="font-medium text-green-500">Verified</span>
+</div>
+<div class="flex items-center justify-between p-3 rounded bg-gray-50 dark:bg-gray-900 text-xs border border-gray-100 dark:border-gray-800">
+<span class="text-gray-500">Screen Burning</span>
+<span class="font-medium text-green-500">Completed</span>
+</div>
+<div class="flex items-center justify-between p-3 rounded bg-primary/5 text-xs border border-primary/20">
+<span class="text-primary font-semibold">Press Stage</span>
+<span class="font-medium text-primary">82% (410/500 units)</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="feature-card rounded-3xl overflow-hidden grid lg:grid-cols-2">
+<div class="order-2 lg:order-1 bg-gray-50 dark:bg-black p-8 lg:p-12 flex items-center justify-center">
+<div class="ui-snippet w-full shadow-2xl overflow-hidden">
+<div class="h-10 bg-white dark:bg-gray-900 border-b border-gray-100 dark:border-gray-800 px-4 flex items-center">
+<span class="text-[10px] text-gray-400 font-mono uppercase tracking-widest">Inventory_Matrix_v4</span>
+</div>
+<div class="p-6 bg-white dark:bg-gray-950">
+<div class="grid grid-cols-4 gap-2 mb-6">
+<div class="h-12 bg-gray-50 dark:bg-gray-900 rounded border border-gray-100 dark:border-gray-800 flex flex-col items-center justify-center">
+<span class="text-[9px] text-gray-400">S</span>
+<span class="text-xs font-bold">142</span>
+</div>
+<div class="h-12 bg-gray-50 dark:bg-gray-900 rounded border border-gray-100 dark:border-gray-800 flex flex-col items-center justify-center">
+<span class="text-[9px] text-gray-400">M</span>
+<span class="text-xs font-bold">82</span>
+</div>
+<div class="h-12 bg-orange-50 dark:bg-orange-900/10 rounded border border-orange-200 dark:border-orange-900/30 flex flex-col items-center justify-center">
+<span class="text-[9px] text-orange-500">L</span>
+<span class="text-xs font-bold text-orange-600">4</span>
+</div>
+<div class="h-12 bg-gray-50 dark:bg-gray-900 rounded border border-gray-100 dark:border-gray-800 flex flex-col items-center justify-center">
+<span class="text-[9px] text-gray-400">XL</span>
+<span class="text-xs font-bold">210</span>
+</div>
+</div>
+<div class="space-y-2">
+<div class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1">Incoming Purchase Orders</div>
+<div class="p-2 border border-gray-100 dark:border-gray-800 rounded flex justify-between items-center text-[11px]">
+<span class="font-medium">PO #882 - SanMar</span>
+<span class="text-gray-400 italic">Arriving Tue</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="order-1 lg:order-2 p-12 lg:p-20 flex flex-col justify-center border-b lg:border-b-0 lg:border-l border-gray-100 dark:border-gray-800">
+<div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-8">
+<span class="material-symbols-outlined">inventory</span>
+</div>
+<h2 class="text-3xl font-bold mb-6 dark:text-white">Inventory Management</h2>
+<div class="space-y-8">
+<div>
+<h4 class="text-xs font-bold uppercase tracking-widest text-primary mb-2">The Problem Eliminated</h4>
+<p class="text-gray-600 dark:text-gray-400">The "Oh crap, we're out of Large Whites" moment mid-production because someone forgot to update the spreadsheet.</p>
+</div>
+<div>
+<h4 class="text-xs font-bold uppercase tracking-widest text-primary mb-2">What Changes After</h4>
+<p class="text-gray-600 dark:text-gray-400">Global stock visibility synced with purchase orders. Live inventory levels across all physical bins, automatically updated as blanks are pulled.</p>
+</div>
+<div class="pt-4 border-t border-gray-100 dark:border-gray-800">
+<p class="text-sm font-medium text-gray-500"><span class="text-charcoal dark:text-white">Best for:</span> Purchasing Agents &amp; Warehouse Managers.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="feature-card rounded-3xl overflow-hidden grid lg:grid-cols-2">
+<div class="p-12 lg:p-20 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-gray-100 dark:border-gray-800">
+<div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-8">
+<span class="material-symbols-outlined">verified</span>
+</div>
+<h2 class="text-3xl font-bold mb-6 dark:text-white">Client Approvals</h2>
+<div class="space-y-8">
+<div>
+<h4 class="text-xs font-bold uppercase tracking-widest text-primary mb-2">The Problem Eliminated</h4>
+<p class="text-gray-600 dark:text-gray-400">Approval delays buried in email threads. Clients approving the wrong design version because of messy communication.</p>
+</div>
+<div>
+<h4 class="text-xs font-bold uppercase tracking-widest text-primary mb-2">What Changes After</h4>
+<p class="text-gray-600 dark:text-gray-400">Integrated proofing portals. One-click approvals that instantly trigger production tickets, ensuring you only print what's approved.</p>
+</div>
+<div class="pt-4 border-t border-gray-100 dark:border-gray-800">
+<p class="text-sm font-medium text-gray-500"><span class="text-charcoal dark:text-white">Best for:</span> Sales Reps &amp; Art Departments.</p>
+</div>
+</div>
+</div>
+<div class="bg-gray-50 dark:bg-black p-8 lg:p-12 flex items-center justify-center">
+<div class="ui-snippet w-full shadow-2xl overflow-hidden">
+<div class="p-6 bg-white dark:bg-gray-950">
+<div class="aspect-video w-full bg-gray-100 dark:bg-gray-900 rounded-lg flex items-center justify-center mb-4 relative overflow-hidden group">
+<div class="text-center">
+<span class="material-symbols-outlined text-gray-300 dark:text-gray-700 text-6xl">image</span>
+<p class="text-[10px] text-gray-400 mt-2 font-mono uppercase tracking-widest">FRONT_CHEST_V2.PDF</p>
+</div>
+<div class="absolute inset-0 bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<div class="flex gap-4">
+<button class="flex-1 py-3 bg-green-500 text-white rounded text-[11px] font-bold uppercase tracking-widest">Approve Design</button>
+<button class="flex-1 py-3 border border-gray-200 dark:border-gray-800 text-gray-500 rounded text-[11px] font-bold uppercase tracking-widest">Request Revision</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="feature-card rounded-3xl overflow-hidden grid lg:grid-cols-2">
+<div class="order-2 lg:order-1 bg-gray-50 dark:bg-black p-8 lg:p-12 flex items-center justify-center">
+<div class="ui-snippet w-full shadow-2xl overflow-hidden">
+<div class="h-10 bg-white dark:bg-gray-900 border-b border-gray-100 dark:border-gray-800 px-4 flex items-center justify-between">
+<span class="text-[10px] text-gray-400 font-mono uppercase tracking-widest">Automation_Scripts</span>
+<div class="w-8 h-4 bg-primary rounded-full relative">
+<div class="absolute right-1 top-1 w-2 h-2 bg-white rounded-full"></div>
+</div>
+</div>
+<div class="p-6 bg-white dark:bg-gray-950 font-mono text-[11px]">
+<div class="space-y-4">
+<div class="flex gap-4">
+<span class="text-primary opacity-50">01</span>
+<p class="text-gray-400"><span class="text-primary">IF</span> order_status = "Approved"</p>
+</div>
+<div class="flex gap-4">
+<span class="text-primary opacity-50">02</span>
+<p class="text-gray-400 pl-4"><span class="text-primary">TRIGGER</span> label_print(ShipStation)</p>
+</div>
+<div class="flex gap-4">
+<span class="text-primary opacity-50">03</span>
+<p class="text-gray-400 pl-4"><span class="text-primary">NOTIFY</span> customer(SendGrid, "Art is Ready")</p>
+</div>
+<div class="flex gap-4">
+<span class="text-primary opacity-50">04</span>
+<p class="text-gray-400"><span class="text-primary">END IF</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="order-1 lg:order-2 p-12 lg:p-20 flex flex-col justify-center border-b lg:border-b-0 lg:border-l border-gray-100 dark:border-gray-800">
+<div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-8">
+<span class="material-symbols-outlined">bolt</span>
+</div>
+<h2 class="text-3xl font-bold mb-6 dark:text-white">Automation Layers</h2>
+<div class="space-y-8">
+<div>
+<h4 class="text-xs font-bold uppercase tracking-widest text-primary mb-2">The Problem Eliminated</h4>
+<p class="text-gray-600 dark:text-gray-400">Manual data re-entry between systems. Humans doing repetitive tasks that computers can do 10x faster and with zero errors.</p>
+</div>
+<div>
+<h4 class="text-xs font-bold uppercase tracking-widest text-primary mb-2">What Changes After</h4>
+<p class="text-gray-600 dark:text-gray-400">Your software works for you. Automated Slack alerts for late orders, auto-generated shipping labels, and real-time P&amp;L calculations happening in the background.</p>
+</div>
+<div class="pt-4 border-t border-gray-100 dark:border-gray-800">
+<p class="text-sm font-medium text-gray-500"><span class="text-charcoal dark:text-white">Best for:</span> Operations Directors &amp; Owners.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="bg-background-light dark:bg-background-dark border-t border-gray-100 dark:border-gray-900 py-20">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="md:col-span-2">
+<a class="text-xl font-bold tracking-tight text-charcoal dark:text-white mb-6 block" href="#">
+                    Tech For <span class="text-primary">Decorators</span>
+</a>
+<p class="text-gray-500 dark:text-gray-400 text-sm max-w-xs leading-relaxed">
+                    Custom FileMaker solutions for the apparel decoration industry.
+                </p>
+</div>
+<div>
+<h5 class="text-xs font-bold uppercase tracking-widest mb-6 dark:text-white">Explore</h5>
+<ul class="space-y-4 text-sm text-gray-500 dark:text-gray-400">
+<li><a class="hover:text-primary transition-colors" href="#">Case Studies</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Platform</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Pricing</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-xs font-bold uppercase tracking-widest mb-6 dark:text-white">Legal</h5>
+<ul class="space-y-4 text-sm text-gray-500 dark:text-gray-400">
+<li><a class="hover:text-primary transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Terms</a></li>
+</ul>
+</div>
+</div>
+<div class="mt-20 pt-8 border-t border-gray-100 dark:border-gray-900">
+<p class="text-xs text-gray-400 text-center">© 2024 Tech For Decorators. Built on Claris FileMaker.</p>
+</div>
+</div>
+</footer>
+
+</body></html>
