@@ -45,7 +45,7 @@ export default function PlatformSection() {
                                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4 md:mb-6 leading-tight text-charcoal dark:text-white tracking-tight">
                                     Built for Operational Leverage.
                                 </h2>
-                                <p className="text-gray-600 dark:text-gray-400 text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed font-normal">
+                                <p className="text-secondary-text dark:text-gray-400 text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed font-normal">
                                     Our architecture is designed to decouple your time from the
                                     shop's output by installing a system-driven hierarchy. Move
                                     from being the bottleneck to overseeing a self-correcting
@@ -53,7 +53,7 @@ export default function PlatformSection() {
                                 </p>
 
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-8">
-                                    <div className="flex flex-col gap-3 md:gap-4 p-4 md:p-6 rounded-2xl bg-gray-50/50 dark:bg-gray-900/50 border border-gray-100 dark:border-gray-800">
+                                    <div className="flex flex-col gap-3 md:gap-4 p-4 md:p-6 rounded-2xl bg-surface dark:bg-gray-900/50 border border-structural-border dark:border-gray-800">
                                         <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-primary/5 border border-primary/10 flex items-center justify-center text-primary">
                                             <span className="material-symbols-outlined text-xl md:text-2xl">
                                                 visibility
@@ -96,11 +96,11 @@ export default function PlatformSection() {
                             className={`lg:col-span-6 transition-all duration-700 delay-200 ${diagramVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                                 }`}
                         >
-                            <div className="bg-gray-50/30 dark:bg-gray-900/30 rounded-3xl p-6 md:p-10 border border-gray-100 dark:border-gray-800 relative overflow-hidden">
+                            <div className="bg-surface/30 dark:bg-gray-900/30 rounded-3xl p-6 md:p-10 border border-structural-border dark:border-gray-800 relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-80 h-80 bg-primary/5 blur-[100px] -mr-40 -mt-40"></div>
                                 <div className="relative z-10 grid grid-cols-1 gap-4 max-w-md mx-auto">
                                     {/* Level 1 - Ownership */}
-                                    <div className="bg-white dark:bg-gray-900 p-6 rounded-2xl border border-gray-100 dark:border-gray-800 border-l-4 border-l-gray-300">
+                                    <div className="bg-surface dark:bg-gray-900 p-6 rounded-2xl border border-structural-border dark:border-gray-800 border-l-4 border-l-gray-300">
                                         <div className="flex items-center justify-between mb-4">
                                             <div className="flex items-center gap-3">
                                                 <span className="material-symbols-outlined text-2xl text-primary/70">
@@ -118,13 +118,13 @@ export default function PlatformSection() {
                                             "Strategic Direction & Profitability"
                                         </p>
                                         <div className="flex flex-wrap gap-2">
-                                            <span className="px-2.5 py-1 rounded bg-gray-50 dark:bg-gray-800 text-[10px] font-semibold border border-gray-100 dark:border-gray-700 uppercase tracking-wider text-gray-500 dark:text-gray-400">
+                                            <span className="px-2.5 py-1 rounded bg-background-light dark:bg-gray-800 text-[10px] font-semibold border border-structural-border dark:border-gray-700 uppercase tracking-wider text-secondary-text dark:text-gray-400">
                                                 P&L Visibility
                                             </span>
-                                            <span className="px-2.5 py-1 rounded bg-gray-50 dark:bg-gray-800 text-[10px] font-semibold border border-gray-100 dark:border-gray-700 uppercase tracking-wider text-gray-500 dark:text-gray-400">
+                                            <span className="px-2.5 py-1 rounded bg-background-light dark:bg-gray-800 text-[10px] font-semibold border border-structural-border dark:border-gray-700 uppercase tracking-wider text-secondary-text dark:text-gray-400">
                                                 Forecasting
                                             </span>
-                                            <span className="px-2.5 py-1 rounded bg-gray-50 dark:bg-gray-800 text-[10px] font-semibold border border-gray-100 dark:border-gray-700 uppercase tracking-wider text-gray-500 dark:text-gray-400">
+                                            <span className="px-2.5 py-1 rounded bg-background-light dark:bg-gray-800 text-[10px] font-semibold border border-structural-border dark:border-gray-700 uppercase tracking-wider text-secondary-text dark:text-gray-400">
                                                 Growth ROI
                                             </span>
                                         </div>
@@ -136,7 +136,7 @@ export default function PlatformSection() {
                                     </div>
 
                                     {/* Level 2 - Management */}
-                                    <div className="bg-white dark:bg-gray-900 p-6 rounded-2xl border border-gray-100 dark:border-gray-800 border-l-4 border-l-gray-300">
+                                    <div className="bg-surface dark:bg-gray-900 p-6 rounded-2xl border border-structural-border dark:border-gray-800 border-l-4 border-l-gray-300">
                                         <div className="flex items-center justify-between mb-4">
                                             <div className="flex items-center gap-3">
                                                 <span className="material-symbols-outlined text-2xl text-primary/70">
@@ -154,13 +154,13 @@ export default function PlatformSection() {
                                             "Execution & Optimization"
                                         </p>
                                         <div className="flex flex-wrap gap-2">
-                                            <span className="px-2.5 py-1 rounded bg-gray-50 dark:bg-gray-800 text-[10px] font-semibold border border-gray-100 dark:border-gray-700 uppercase tracking-wider text-gray-500 dark:text-gray-400">
+                                            <span className="px-2.5 py-1 rounded bg-background-light dark:bg-gray-800 text-[10px] font-semibold border border-structural-border dark:border-gray-700 uppercase tracking-wider text-secondary-text dark:text-gray-400">
                                                 Production Flow
                                             </span>
-                                            <span className="px-2.5 py-1 rounded bg-gray-50 dark:bg-gray-800 text-[10px] font-semibold border border-gray-100 dark:border-gray-700 uppercase tracking-wider text-gray-500 dark:text-gray-400">
+                                            <span className="px-2.5 py-1 rounded bg-background-light dark:bg-gray-800 text-[10px] font-semibold border border-structural-border dark:border-gray-700 uppercase tracking-wider text-secondary-text dark:text-gray-400">
                                                 Inventory Sync
                                             </span>
-                                            <span className="px-2.5 py-1 rounded bg-gray-50 dark:bg-gray-800 text-[10px] font-semibold border border-gray-100 dark:border-gray-700 uppercase tracking-wider text-gray-500 dark:text-gray-400">
+                                            <span className="px-2.5 py-1 rounded bg-background-light dark:bg-gray-800 text-[10px] font-semibold border border-structural-border dark:border-gray-700 uppercase tracking-wider text-secondary-text dark:text-gray-400">
                                                 Staffing
                                             </span>
                                         </div>
@@ -172,7 +172,7 @@ export default function PlatformSection() {
                                     </div>
 
                                     {/* Level 3 - Automation (Highlighted) */}
-                                    <div className="bg-white dark:bg-gray-900 p-6 rounded-2xl border-l-4 border-l-primary ring-1 ring-primary/5">
+                                    <div className="bg-surface dark:bg-gray-900 p-6 rounded-2xl border-l-4 border-l-primary ring-1 ring-primary/5">
                                         <div className="flex items-center justify-between mb-4">
                                             <div className="flex items-center gap-3">
                                                 <span className="material-symbols-outlined text-2xl text-primary">
@@ -218,9 +218,9 @@ export default function PlatformSection() {
             </div>
 
             {/* Hierarchy of Leverage */}
-            <div className="py-12 md:py-20 bg-gray-50/20 dark:bg-black/20 border-t border-gray-100 dark:border-gray-800">
+            <div className="py-12 md:py-20 bg-background-light/50 dark:bg-black/20 border-t border-structural-border dark:border-gray-800">
                 <div className="max-w-7xl mx-auto px-mobile">
-                    <div className="bg-white dark:bg-gray-900 rounded-2xl md:rounded-[2rem] p-6 md:p-10 lg:p-16 border border-gray-100 dark:border-gray-800 shadow-sm relative overflow-hidden">
+                    <div className="bg-surface dark:bg-gray-900 rounded-2xl md:rounded-[2rem] p-6 md:p-10 lg:p-16 border border-structural-border dark:border-gray-800 shadow-sm relative overflow-hidden">
                         <div className="relative z-10">
                             <div className="mb-8 md:mb-12 text-center max-w-2xl mx-auto">
                                 <h2 className="text-2xl sm:text-3xl font-bold mb-3 md:mb-4 text-charcoal dark:text-white tracking-tight">

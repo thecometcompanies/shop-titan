@@ -23,11 +23,11 @@ export default function FeaturesSection() {
                     </span>
                     <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6 md:mb-8 tracking-tight text-charcoal dark:text-white">
                         Engineered for <br />
-                        <span className="text-gray-400 dark:text-gray-600">
+                        <span className="text-secondary-text dark:text-gray-600">
                             Operational Excellence.
                         </span>
                     </h1>
-                    <p className="text-base md:text-lg lg:text-xl text-gray-500 dark:text-gray-400 leading-relaxed">
+                    <p className="text-base md:text-lg lg:text-xl text-secondary-text dark:text-gray-400 leading-relaxed">
                         A modular architectural approach to apparel decoration. We didn't
                         just build features; we solved the fundamental frictions of
                         high-volume production.
@@ -41,7 +41,7 @@ export default function FeaturesSection() {
                         className={`feature-card rounded-2xl md:rounded-3xl overflow-hidden grid lg:grid-cols-2 transition-all duration-700 ${card1Visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                             }`}
                     >
-                        <div className="p-8 md:p-12 lg:p-20 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-gray-100 dark:border-gray-800">
+                        <div className="p-8 md:p-12 lg:p-20 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-structural-border dark:border-gray-800">
                             <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-8">
                                 <span className="material-symbols-outlined">analytics</span>
                             </div>
@@ -53,7 +53,7 @@ export default function FeaturesSection() {
                                     <h4 className="text-xs font-bold uppercase tracking-widest text-primary mb-2">
                                         The Problem Eliminated
                                     </h4>
-                                    <p className="text-gray-600 dark:text-gray-400">
+                                    <p className="text-secondary-text dark:text-gray-400">
                                         "Where is order #492?" phone calls and physical job jackets
                                         getting lost between the office and the press.
                                     </p>
@@ -62,14 +62,14 @@ export default function FeaturesSection() {
                                     <h4 className="text-xs font-bold uppercase tracking-widest text-primary mb-2">
                                         What Changes After
                                     </h4>
-                                    <p className="text-gray-600 dark:text-gray-400">
+                                    <p className="text-secondary-text dark:text-gray-400">
                                         Real-time digital status updates at every stage. Every
                                         garment's journey is logged, visible, and searchable by
                                         anyone on the team.
                                     </p>
                                 </div>
-                                <div className="pt-4 border-t border-gray-100 dark:border-gray-800">
-                                    <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
+                                <div className="pt-4 border-t border-structural-border dark:border-gray-800">
+                                    <p className="text-sm font-medium text-secondary-text dark:text-gray-400">
                                         <span className="text-charcoal dark:text-white">
                                             Best for:
                                         </span>{" "}
@@ -80,9 +80,9 @@ export default function FeaturesSection() {
                         </div>
 
                         {/* Mock UI */}
-                        <div className="bg-gray-50 dark:bg-black p-8 lg:p-12 flex items-center justify-center">
+                        <div className="bg-background-light dark:bg-black p-8 lg:p-12 flex items-center justify-center">
                             <div className="ui-snippet w-full shadow-2xl overflow-hidden">
-                                <div className="h-10 bg-white dark:bg-gray-900 border-b border-gray-100 dark:border-gray-800 px-4 flex items-center gap-2">
+                                <div className="h-10 bg-surface dark:bg-gray-900 border-b border-structural-border dark:border-gray-800 px-4 flex items-center gap-2">
                                     <div className="flex gap-1.5">
                                         <div className="w-2.5 h-2.5 rounded-full bg-red-400/20"></div>
                                         <div className="w-2.5 h-2.5 rounded-full bg-yellow-400/20"></div>
@@ -92,7 +92,7 @@ export default function FeaturesSection() {
                                         FileMaker Pro - Production_Main
                                     </span>
                                 </div>
-                                <div className="p-6 bg-white dark:bg-gray-950">
+                                <div className="p-6 bg-surface dark:bg-gray-950">
                                     <div className="flex justify-between items-center mb-6">
                                         <div className="flex items-center gap-4">
                                             <div className="px-3 py-1 bg-green-500/10 text-green-600 text-[10px] font-bold rounded">
@@ -107,14 +107,14 @@ export default function FeaturesSection() {
                                         </span>
                                     </div>
                                     <div className="space-y-3">
-                                        <div className="flex items-center justify-between p-3 rounded bg-gray-50 dark:bg-gray-900 text-xs border border-gray-100 dark:border-gray-800">
-                                            <span className="text-gray-500">Separations</span>
+                                        <div className="flex items-center justify-between p-3 rounded bg-background-light dark:bg-gray-900 text-xs border border-structural-border dark:border-gray-800">
+                                            <span className="text-secondary-text">Separations</span>
                                             <span className="font-medium text-green-500">
                                                 Verified
                                             </span>
                                         </div>
-                                        <div className="flex items-center justify-between p-3 rounded bg-gray-50 dark:bg-gray-900 text-xs border border-gray-100 dark:border-gray-800">
-                                            <span className="text-gray-500">Screen Burning</span>
+                                        <div className="flex items-center justify-between p-3 rounded bg-background-light dark:bg-gray-900 text-xs border border-structural-border dark:border-gray-800">
+                                            <span className="text-secondary-text">Screen Burning</span>
                                             <span className="font-medium text-green-500">
                                                 Completed
                                             </span>
@@ -139,22 +139,22 @@ export default function FeaturesSection() {
                         className={`feature-card rounded-3xl overflow-hidden grid lg:grid-cols-2 transition-all duration-700 delay-100 ${card2Visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                             }`}
                     >
-                        <div className="order-2 lg:order-1 bg-gray-50 dark:bg-black p-8 lg:p-12 flex items-center justify-center">
+                        <div className="order-2 lg:order-1 bg-background-light dark:bg-black p-8 lg:p-12 flex items-center justify-center">
                             <div className="ui-snippet w-full shadow-2xl overflow-hidden">
-                                <div className="h-10 bg-white dark:bg-gray-900 border-b border-gray-100 dark:border-gray-800 px-4 flex items-center">
+                                <div className="h-10 bg-surface dark:bg-gray-900 border-b border-structural-border dark:border-gray-800 px-4 flex items-center">
                                     <span className="text-[10px] text-gray-400 font-mono uppercase tracking-widest">
                                         Inventory_Matrix_v4
                                     </span>
                                 </div>
-                                <div className="p-6 bg-white dark:bg-gray-950">
+                                <div className="p-6 bg-surface dark:bg-gray-950">
                                     <div className="grid grid-cols-4 gap-2 mb-6">
-                                        <div className="h-12 bg-gray-50 dark:bg-gray-900 rounded border border-gray-100 dark:border-gray-800 flex flex-col items-center justify-center">
+                                        <div className="h-12 bg-background-light dark:bg-gray-900 rounded border border-structural-border dark:border-gray-800 flex flex-col items-center justify-center">
                                             <span className="text-[9px] text-gray-400">S</span>
                                             <span className="text-xs font-bold dark:text-white">
                                                 142
                                             </span>
                                         </div>
-                                        <div className="h-12 bg-gray-50 dark:bg-gray-900 rounded border border-gray-100 dark:border-gray-800 flex flex-col items-center justify-center">
+                                        <div className="h-12 bg-background-light dark:bg-gray-900 rounded border border-structural-border dark:border-gray-800 flex flex-col items-center justify-center">
                                             <span className="text-[9px] text-gray-400">M</span>
                                             <span className="text-xs font-bold dark:text-white">
                                                 82
@@ -166,7 +166,7 @@ export default function FeaturesSection() {
                                                 4
                                             </span>
                                         </div>
-                                        <div className="h-12 bg-gray-50 dark:bg-gray-900 rounded border border-gray-100 dark:border-gray-800 flex flex-col items-center justify-center">
+                                        <div className="h-12 bg-background-light dark:bg-gray-900 rounded border border-structural-border dark:border-gray-800 flex flex-col items-center justify-center">
                                             <span className="text-[9px] text-gray-400">XL</span>
                                             <span className="text-xs font-bold dark:text-white">
                                                 210
@@ -177,7 +177,7 @@ export default function FeaturesSection() {
                                         <div className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1">
                                             Incoming Purchase Orders
                                         </div>
-                                        <div className="p-2 border border-gray-100 dark:border-gray-800 rounded flex justify-between items-center text-[11px]">
+                                        <div className="p-2 border border-structural-border dark:border-gray-800 rounded flex justify-between items-center text-[11px]">
                                             <span className="font-medium dark:text-white">
                                                 PO #882 - SanMar
                                             </span>
@@ -189,7 +189,7 @@ export default function FeaturesSection() {
                                 </div>
                             </div>
                         </div>
-                        <div className="order-1 lg:order-2 p-12 lg:p-20 flex flex-col justify-center border-b lg:border-b-0 lg:border-l border-gray-100 dark:border-gray-800">
+                        <div className="order-1 lg:order-2 p-12 lg:p-20 flex flex-col justify-center border-b lg:border-b-0 lg:border-l border-structural-border dark:border-gray-800">
                             <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-8">
                                 <span className="material-symbols-outlined">inventory</span>
                             </div>
@@ -201,7 +201,7 @@ export default function FeaturesSection() {
                                     <h4 className="text-xs font-bold uppercase tracking-widest text-primary mb-2">
                                         The Problem Eliminated
                                     </h4>
-                                    <p className="text-gray-600 dark:text-gray-400">
+                                    <p className="text-secondary-text dark:text-gray-400">
                                         The "Oh crap, we're out of Large Whites" moment
                                         mid-production because someone forgot to update the
                                         spreadsheet.
@@ -211,13 +211,13 @@ export default function FeaturesSection() {
                                     <h4 className="text-xs font-bold uppercase tracking-widest text-primary mb-2">
                                         What Changes After
                                     </h4>
-                                    <p className="text-gray-600 dark:text-gray-400">
+                                    <p className="text-secondary-text dark:text-gray-400">
                                         Global stock visibility synced with purchase orders. Live
                                         inventory levels across all physical bins, automatically
                                         updated as blanks are pulled.
                                     </p>
                                 </div>
-                                <div className="pt-4 border-t border-gray-100 dark:border-gray-800">
+                                <div className="pt-4 border-t border-structural-border dark:border-gray-800">
                                     <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
                                         <span className="text-charcoal dark:text-white">
                                             Best for:
@@ -235,7 +235,7 @@ export default function FeaturesSection() {
                         className={`feature-card rounded-3xl overflow-hidden grid lg:grid-cols-2 transition-all duration-700 delay-200 ${card3Visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                             }`}
                     >
-                        <div className="p-12 lg:p-20 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-gray-100 dark:border-gray-800">
+                        <div className="p-12 lg:p-20 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-structural-border dark:border-gray-800">
                             <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-8">
                                 <span className="material-symbols-outlined">verified</span>
                             </div>
@@ -247,7 +247,7 @@ export default function FeaturesSection() {
                                     <h4 className="text-xs font-bold uppercase tracking-widest text-primary mb-2">
                                         The Problem Eliminated
                                     </h4>
-                                    <p className="text-gray-600 dark:text-gray-400">
+                                    <p className="text-secondary-text dark:text-gray-400">
                                         Approval delays buried in email threads. Clients approving
                                         the wrong design version because of messy communication.
                                     </p>
@@ -256,13 +256,13 @@ export default function FeaturesSection() {
                                     <h4 className="text-xs font-bold uppercase tracking-widest text-primary mb-2">
                                         What Changes After
                                     </h4>
-                                    <p className="text-gray-600 dark:text-gray-400">
+                                    <p className="text-secondary-text dark:text-gray-400">
                                         Integrated proofing portals. One-click approvals that
                                         instantly trigger production tickets, ensuring you only
                                         print what's approved.
                                     </p>
                                 </div>
-                                <div className="pt-4 border-t border-gray-100 dark:border-gray-800">
+                                <div className="pt-4 border-t border-structural-border dark:border-gray-800">
                                     <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
                                         <span className="text-charcoal dark:text-white">
                                             Best for:
@@ -272,10 +272,10 @@ export default function FeaturesSection() {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-gray-50 dark:bg-black p-8 lg:p-12 flex items-center justify-center">
+                        <div className="bg-background-light dark:bg-black p-8 lg:p-12 flex items-center justify-center">
                             <div className="ui-snippet w-full shadow-2xl overflow-hidden">
-                                <div className="p-6 bg-white dark:bg-gray-950">
-                                    <div className="aspect-video w-full bg-gray-100 dark:bg-gray-900 rounded-lg flex items-center justify-center mb-4 relative overflow-hidden group">
+                                <div className="p-6 bg-surface dark:bg-gray-950">
+                                    <div className="aspect-video w-full bg-structural-border dark:bg-gray-900 rounded-lg flex items-center justify-center mb-4 relative overflow-hidden group">
                                         <div className="text-center">
                                             <span className="material-symbols-outlined text-gray-300 dark:text-gray-700 text-6xl">
                                                 image
@@ -290,7 +290,7 @@ export default function FeaturesSection() {
                                         <button className="flex-1 py-3 bg-green-500 text-white rounded text-[11px] font-bold uppercase tracking-widest">
                                             Approve Design
                                         </button>
-                                        <button className="flex-1 py-3 border border-gray-200 dark:border-gray-800 text-gray-500 rounded text-[11px] font-bold uppercase tracking-widest">
+                                        <button className="flex-1 py-3 border border-structural-border dark:border-gray-800 text-gray-500 rounded text-[11px] font-bold uppercase tracking-widest">
                                             Request Revision
                                         </button>
                                     </div>
@@ -305,9 +305,9 @@ export default function FeaturesSection() {
                         className={`feature-card rounded-3xl overflow-hidden grid lg:grid-cols-2 transition-all duration-700 delay-300 ${card4Visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                             }`}
                     >
-                        <div className="order-2 lg:order-1 bg-gray-50 dark:bg-black p-8 lg:p-12 flex items-center justify-center">
+                        <div className="order-2 lg:order-1 bg-background-light dark:bg-black p-8 lg:p-12 flex items-center justify-center">
                             <div className="ui-snippet w-full shadow-2xl overflow-hidden">
-                                <div className="h-10 bg-white dark:bg-gray-900 border-b border-gray-100 dark:border-gray-800 px-4 flex items-center justify-between">
+                                <div className="h-10 bg-surface dark:bg-gray-900 border-b border-structural-border dark:border-gray-800 px-4 flex items-center justify-between">
                                     <span className="text-[10px] text-gray-400 font-mono uppercase tracking-widest">
                                         Automation_Scripts
                                     </span>
@@ -315,7 +315,7 @@ export default function FeaturesSection() {
                                         <div className="absolute right-1 top-1 w-2 h-2 bg-white rounded-full"></div>
                                     </div>
                                 </div>
-                                <div className="p-6 bg-white dark:bg-gray-950 font-mono text-[11px]">
+                                <div className="p-6 bg-surface dark:bg-gray-950 font-mono text-[11px]">
                                     <div className="space-y-4">
                                         <div className="flex gap-4">
                                             <span className="text-primary opacity-50">01</span>
@@ -348,7 +348,7 @@ export default function FeaturesSection() {
                                 </div>
                             </div>
                         </div>
-                        <div className="order-1 lg:order-2 p-12 lg:p-20 flex flex-col justify-center border-b lg:border-b-0 lg:border-l border-gray-100 dark:border-gray-800">
+                        <div className="order-1 lg:order-2 p-12 lg:p-20 flex flex-col justify-center border-b lg:border-b-0 lg:border-l border-structural-border dark:border-gray-800">
                             <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-8">
                                 <span className="material-symbols-outlined">bolt</span>
                             </div>
@@ -360,7 +360,7 @@ export default function FeaturesSection() {
                                     <h4 className="text-xs font-bold uppercase tracking-widest text-primary mb-2">
                                         The Problem Eliminated
                                     </h4>
-                                    <p className="text-gray-600 dark:text-gray-400">
+                                    <p className="text-secondary-text dark:text-gray-400">
                                         Manual data re-entry between systems. Humans doing
                                         repetitive tasks that computers can do 10x faster and with
                                         zero errors.
@@ -370,13 +370,13 @@ export default function FeaturesSection() {
                                     <h4 className="text-xs font-bold uppercase tracking-widest text-primary mb-2">
                                         What Changes After
                                     </h4>
-                                    <p className="text-gray-600 dark:text-gray-400">
+                                    <p className="text-secondary-text dark:text-gray-400">
                                         Your software works for you. Automated Slack alerts for late
                                         orders, auto-generated shipping labels, and real-time P&L
                                         calculations happening in the background.
                                     </p>
                                 </div>
-                                <div className="pt-4 border-t border-gray-100 dark:border-gray-800">
+                                <div className="pt-4 border-t border-structural-border dark:border-gray-800">
                                     <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
                                         <span className="text-charcoal dark:text-white">
                                             Best for:

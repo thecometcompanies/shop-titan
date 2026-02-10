@@ -29,10 +29,10 @@ export default function PainPointSection() {
     return (
         <section
             ref={elementRef}
-            className="relative py-16 md:py-24 lg:py-32 bg-gradient-to-b from-white via-gray-50 to-white dark:from-background-dark dark:via-gray-950 dark:to-background-dark overflow-hidden"
+            className="relative py-16 md:py-24 lg:py-32 bg-background-light dark:bg-background-dark overflow-hidden"
         >
             {/* Gradient Blob Background */}
-            <div className="absolute top-0 right-0 w-[500px] md:w-[800px] h-[500px] md:h-[800px] bg-red-500/5 dark:bg-red-500/10 rounded-full blur-[120px] -z-10"></div>
+            <div className="absolute top-0 right-0 w-[500px] md:w-[800px] h-[500px] md:h-[800px] bg-primary/5 dark:bg-primary/10 rounded-full blur-[120px] -z-10"></div>
 
             <div className="max-w-6xl mx-auto px-mobile">
                 {/* Main Headline */}
@@ -58,7 +58,7 @@ export default function PainPointSection() {
                                 <div className="relative w-16 h-16">
                                     {/* Clock Circle */}
                                     <svg
-                                        className="w-full h-full text-gray-200 dark:text-gray-800"
+                                        className="w-full h-full text-structural-border dark:text-gray-800"
                                         viewBox="0 0 100 100"
                                     >
                                         <circle
@@ -98,7 +98,7 @@ export default function PainPointSection() {
                             </div>
 
                             {/* Description */}
-                            <p className="text-base md:text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
+                            <p className="text-base md:text-lg text-secondary-text dark:text-gray-400 leading-relaxed">
                                 {point.description}
                             </p>
                         </div>

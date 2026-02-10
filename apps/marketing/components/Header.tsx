@@ -32,25 +32,25 @@ export default function Header() {
                     <div className="hidden md:flex items-center gap-6 lg:gap-8 absolute left-1/2 -translate-x-1/2">
                         <button
                             onClick={() => scrollToSection("product")}
-                            className="text-xs font-semibold text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors uppercase tracking-wider focus-primary tap-target"
+                            className="text-xs font-semibold text-secondary-text dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors uppercase tracking-wider focus-primary tap-target"
                         >
                             Product
                         </button>
                         <button
                             onClick={() => scrollToSection("platform")}
-                            className="text-xs font-semibold text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors uppercase tracking-wider focus-primary tap-target"
+                            className="text-xs font-semibold text-secondary-text dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors uppercase tracking-wider focus-primary tap-target"
                         >
                             Platform
                         </button>
                         <button
                             onClick={() => scrollToSection("features")}
-                            className="text-xs font-semibold text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors uppercase tracking-wider focus-primary tap-target"
+                            className="text-xs font-semibold text-secondary-text dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors uppercase tracking-wider focus-primary tap-target"
                         >
                             Features
                         </button>
                         <button
                             onClick={() => scrollToSection("blog")}
-                            className="text-xs font-semibold text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors uppercase tracking-wider focus-primary tap-target"
+                            className="text-xs font-semibold text-secondary-text dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors uppercase tracking-wider focus-primary tap-target"
                         >
                             Blog
                         </button>
@@ -58,7 +58,7 @@ export default function Header() {
 
                     {/* Desktop Actions */}
                     <div className="hidden md:flex items-center gap-3">
-                        <button className="hidden lg:block text-xs font-bold text-gray-600 dark:text-gray-400 hover:text-charcoal dark:hover:text-white transition-all uppercase tracking-wider px-3 focus-primary tap-target">
+                        <button className="hidden lg:block text-xs font-bold text-secondary-text dark:text-gray-400 hover:text-charcoal dark:hover:text-white transition-all uppercase tracking-wider px-3 focus-primary tap-target">
                             Log in
                         </button>
                         <button

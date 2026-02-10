@@ -43,13 +43,13 @@ export default function BlogSection() {
                 {/* Header */}
                 <div
                     ref={headerRef}
-                    className={`mb-16 sm:mb-24 md:mb-32 border-b border-gray-100 dark:border-gray-900 pb-12 md:pb-16 transition-all duration-700 ${headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+                    className={`mb-16 sm:mb-24 md:mb-32 border-b border-structural-border dark:border-gray-900 pb-12 md:pb-16 transition-all duration-700 ${headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                         }`}
                 >
                     <h1 className="text-[11px] font-bold tracking-[0.3em] text-primary uppercase mb-4 md:mb-6">
                         Editorial Insights
                     </h1>
-                    <p className="text-3xl sm:text-4xl md:text-5xl font-serif italic text-gray-800 dark:text-gray-200">
+                    <p className="text-3xl sm:text-4xl md:text-5xl font-serif italic text-charcoal dark:text-gray-200">
                         The architecture of modern apparel decoration.
                     </p>
                 </div>
@@ -62,9 +62,9 @@ export default function BlogSection() {
                 >
                     {articles.map((article, index) => (
                         <article key={index} className="group relative">
-                            <div className="flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400 dark:text-gray-500 mb-4 md:mb-6">
+                            <div className="flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.2em] text-secondary-text dark:text-gray-500 mb-4 md:mb-6">
                                 <span>{article.date}</span>
-                                <span className="w-1 h-1 rounded-full bg-gray-300"></span>
+                                <span className="w-1 h-1 rounded-full bg-structural-border"></span>
                                 <span className="text-primary">{article.category}</span>
                             </div>
                             <a href="#" className="block group">
@@ -73,7 +73,7 @@ export default function BlogSection() {
                                 </h2>
                             </a>
                             <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 md:gap-8">
-                                <p className="max-w-xl text-base md:text-lg text-gray-500 dark:text-gray-400 leading-relaxed font-light">
+                                <p className="max-w-xl text-base md:text-lg text-secondary-text dark:text-gray-400 leading-relaxed font-light">
                                     {article.description}
                                 </p>
                                 <a
@@ -91,8 +91,8 @@ export default function BlogSection() {
                 </div>
 
                 {/* View All */}
-                <div className="mt-48 pt-16 border-t border-gray-100 dark:border-gray-900 flex justify-center">
-                    <button className="text-[10px] font-bold uppercase tracking-[0.3em] text-gray-400 hover:text-charcoal dark:hover:text-white transition-all py-5 px-10 border border-gray-100 dark:border-gray-800 rounded-full hover:border-charcoal dark:hover:border-white">
+                <div className="mt-48 pt-16 border-t border-structural-border dark:border-gray-900 flex justify-center">
+                    <button className="text-[10px] font-bold uppercase tracking-[0.3em] text-secondary-text hover:text-charcoal dark:hover:text-white transition-all py-5 px-10 border border-structural-border dark:border-gray-800 rounded-full hover:border-charcoal dark:hover:border-white">
                         View All Archives
                     </button>
                 </div>

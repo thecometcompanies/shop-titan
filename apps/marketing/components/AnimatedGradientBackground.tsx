@@ -80,27 +80,27 @@ export default function AnimatedGradientBackground() {
                 <defs>
                     {/* Gradient Definitions */}
                     <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
-                        <stop offset="0%" stopColor="#a78bfa" stopOpacity="0.4" />
-                        <stop offset="50%" stopColor="#ec4899" stopOpacity="0.4" />
-                        <stop offset="100%" stopColor="#f97316" stopOpacity="0.4" />
+                        <stop offset="0%" stopColor="#0066CC" stopOpacity="0.15" />
+                        <stop offset="50%" stopColor="#0052A3" stopOpacity="0.2" />
+                        <stop offset="100%" stopColor="#003D7A" stopOpacity="0.15" />
                     </linearGradient>
 
                     <linearGradient id="gradient2" x1="100%" y1="0%" x2="0%" y2="100%">
-                        <stop offset="0%" stopColor="#6366f1" stopOpacity="0.3" />
-                        <stop offset="50%" stopColor="#8b5cf6" stopOpacity="0.3" />
-                        <stop offset="100%" stopColor="#d946ef" stopOpacity="0.3" />
+                        <stop offset="0%" stopColor="#4A90E2" stopOpacity="0.12" />
+                        <stop offset="50%" stopColor="#0066CC" stopOpacity="0.18" />
+                        <stop offset="100%" stopColor="#005BB5" stopOpacity="0.12" />
                     </linearGradient>
 
                     <linearGradient id="gradient3" x1="0%" y1="100%" x2="100%" y2="0%">
-                        <stop offset="0%" stopColor="#f59e0b" stopOpacity="0.35" />
-                        <stop offset="50%" stopColor="#f97316" stopOpacity="0.35" />
-                        <stop offset="100%" stopColor="#ec4899" stopOpacity="0.35" />
+                        <stop offset="0%" stopColor="#6E6E73" stopOpacity="0.08" />
+                        <stop offset="50%" stopColor="#0066CC" stopOpacity="0.15" />
+                        <stop offset="100%" stopColor="#86868B" stopOpacity="0.08" />
                     </linearGradient>
 
                     <linearGradient id="gradient4" x1="50%" y1="0%" x2="50%" y2="100%">
-                        <stop offset="0%" stopColor="#8b5cf6" stopOpacity="0.25" />
-                        <stop offset="50%" stopColor="#6366f1" stopOpacity="0.25" />
-                        <stop offset="100%" stopColor="#3b82f6" stopOpacity="0.25" />
+                        <stop offset="0%" stopColor="#0080FF" stopOpacity="0.1" />
+                        <stop offset="50%" stopColor="#0066CC" stopOpacity="0.14" />
+                        <stop offset="100%" stopColor="#004D99" stopOpacity="0.1" />
                     </linearGradient>
                 </defs>
 
@@ -134,8 +134,8 @@ export default function AnimatedGradientBackground() {
                 />
             </svg>
 
-            {/* Optional: Subtle overlay for better text contrast */}
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-white/50 dark:to-background-dark/50" />
+            {/* Subtle overlay for better text contrast - uses Apple-inspired off-white */}
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#FBFBFB]/60 dark:to-background-dark/60" />
         </div>
     );
 }

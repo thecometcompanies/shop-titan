@@ -10,10 +10,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#6366f1", // Indigo
-        "background-light": "#ffffff",
+        primary: "#0066CC", // Action Blue
+        "background-light": "#FBFBFB", // Off-white
         "background-dark": "#0a0a0a",
-        charcoal: "#0A0A0A",
+        charcoal: "#1D1D1F", // Deep Charcoal
+        "secondary-text": "#6E6E73", // Muted Grey
+        "structural-border": "#E5E7EB", // Structural Borders
+        surface: "#FFFFFF", // Surface/Card
       },
       fontFamily: {
         display: ["var(--font-inter)", "sans-serif"],
